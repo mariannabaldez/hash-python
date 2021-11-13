@@ -6,7 +6,7 @@ tabuleiro = [[" ", " ", " "],
 ##JOGO:
 
 ordem = jogo.quem_joga()
-
+#test
 for rodada in range(0,5):
     for jogador in ordem:
         jogo.desenho(tabuleiro)
